@@ -4,9 +4,10 @@ module UserAgentList
       result = {}
       parser.css('h3').each do |item|
         parser.css("a:contains('#{item.text}')").each do |link|
-          result[item] ||= []
-          result[item] << link.children.text
+          result[item.text] ||= []
+          result[item.text] << link.children.text unless link.children.text =~ /-->>/
         end
+        result.delete(item.text) if result[item.text] && result[item.text].empty?
       end
       result
     end
@@ -16,7 +17,7 @@ module UserAgentList
 
       result = []
       parser.css("a:contains('#{string}')").each do |link|
-        result << link.children.text
+        result << link.children.text unless link.children.text =~ /-->>/
       end
       result
     end

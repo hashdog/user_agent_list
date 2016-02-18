@@ -33,3 +33,5 @@ module UserAgentList
     SUPPORTED_BROWSERS
   end
 end
+
+puts UserAgentList.by_browser("ABrowse").inspect  
