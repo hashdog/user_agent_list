@@ -27,7 +27,7 @@ UserAgentList.by_browser('Chrome')
 
 ## Contributing
 
-Bug reports and pull requests are welcome on GitHub at https://github.com/[USERNAME]/user_agent_list.
+Bug reports and pull requests are welcome on GitHub at https://github.com/chebyte/user_agent_list.
 
 
 ## License
