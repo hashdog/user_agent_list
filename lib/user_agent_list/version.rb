@@ -1,0 +1,3 @@
+module UserAgentList
+  VERSION = "0.0.1"
+end
