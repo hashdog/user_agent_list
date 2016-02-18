@@ -10,13 +10,19 @@ gem install user_agent_list
 ## Usage
 
 List supported UA browsers
-    UserAgentList.supported_browsers
+```ruby
+UserAgentList.supported_browsers
+```
 
 Get UA list
-    UserAgentList.all
+```ruby
+UserAgentList.all
+```
 
 Find UA by browser name
-  UserAgentList.by_browser('Chrome')
+```ruby
+UserAgentList.by_browser('Chrome')
+```
 
 
 ## Contributing
