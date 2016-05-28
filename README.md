@@ -1,4 +1,4 @@
-[![Beerpay](https://beerpay.io/hashdog/user_agent_list/badge.svg?style=flat-square)](https://beerpay.io/hashdog/user_agent_list)
+[![Beerpay](https://beerpay.io/hashdog/user_agent_list/badge.svg?style=beer)](https://beerpay.io/hashdog/user_agent_list)
 # UserAgentList
 
 Minimal ruby gem for list all user-agents supported by useragentstring.com site!
